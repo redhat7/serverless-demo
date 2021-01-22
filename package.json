@@ -1,0 +1,26 @@
+{
+  "name": "onpe-test",
+  "version": "1.0.0",
+  "description": "Ejemplo serverless lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redhat7/serverless-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redhat7/serverless-demo/issues"
+  },
+  "homepage": "https://github.com/redhat7/serverless-demo#readme",
+  "dependencies": {
+    "aws-sdk": "^2.830.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "serverless-http": "^2.6.1"
+  }
+}
